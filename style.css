@@ -5,7 +5,6 @@ body {
 .header {
     background-color: #1F2937;
     height: 450px;
-    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
 }
 
 .upper {
@@ -103,4 +102,26 @@ button {
 
 .information {
     height: 400px;
+}
+
+.quote {
+    height: 400px;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.q-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    width: 780px;
+}
+
+.signature {
+    font-weight: bold;
+    position: relative;
+    left: 250px;
 }
